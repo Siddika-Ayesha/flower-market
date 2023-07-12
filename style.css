@@ -18,6 +18,10 @@ body {
     border: none;
 }
 
+.primary-color{
+    color: #E55473;
+}
+
 /* Banner Styles */
 .banner-container {
     background: rgba(229, 84, 115, 0.10);
@@ -65,7 +69,33 @@ body {
 
 }
 
-/*  */
+/* Hot Deal Style */
+.hot-deal-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.hot-deal-title {
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+.hot-deal-img-container{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hot-deal-img{
+    width: 70%;
+}
 
 /*Instagram Section Style  */
 .instagram-img-container {
