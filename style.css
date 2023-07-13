@@ -14,12 +14,16 @@ body {
     font-weight: 700;
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 10px 23px;
     border: none;
 }
 
 .primary-color{
     color: #E55473;
+}
+.page-margin{
+        background: #FFF;
+        margin: 150px 140px;
 }
 
 /* Banner Styles */
@@ -97,6 +101,7 @@ body {
     width: 70%;
 }
 
+
 /*Instagram Section Style  */
 .instagram-container{
     background: #FFF;
@@ -110,12 +115,13 @@ body {
 
 }
 .instagram-title{
-    font-size: 3em;
+    font-size: 2.5em;
     border-bottom: 30px;
 }
 .instagram-description{
     color: rgba(39, 39, 39, 0.60);
     padding-top: 10px;
+    font-size: 12px;
 }
 .instagram-img-container{
 display: flex;
@@ -132,10 +138,23 @@ gap: 20px;
     height: 500px;
 }
 
-
-.background-banner {
+.deals-container {
+    
+    margin: auto;
     background-image: url('../flower-shop-assignment/Flower Asset/Rectangle 9.png');
-    margin: 100px;
+    width: 100;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.deals-container h1,p,form{
+    margin-top: 2em;
+}
+.deals-container h1{
+    font-size: 2.2em;
+}
+
 
 /*  */
